@@ -1,0 +1,10 @@
+const formOpen = document.querySelector("#form_open")
+const home = document.querySelector(".home")
+const container = document.querySelector(".container")
+const formClose = document.querySelector(".form_close")
+const signUpBtn = document.querySelector("#signup")
+const logInBtn = document.querySelector("#login")
+const pwShowHide = document.querySelectorAll(".pw_hide")
+
+formOpen.addEventListener("click", () => home.classList.add("show"))
+formClose.addEventListener("click", () => home.classList.remove("show"))
